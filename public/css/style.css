@@ -1,0 +1,160 @@
+/** FONTS & GENERAL **/
+@font-face {
+    font-family: 'great victorian';
+    src: url('../fonts/GreatVictorian-Standard.otf');
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background:#EAE7DA;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Adamina', serif;
+}
+
+h2 {
+    font-size:3em;
+}
+
+hr {
+    border:1px solid #000;
+}
+
+/** Navbar **/
+
+.navbar {
+    font-family: 'Adamina', serif;
+}
+
+
+@media (min-width: 768px) {
+    .navbar .navbar-nav {
+        display: inline-block;
+        float: none;
+        vertical-align: top;
+    }
+
+    .navbar .navbar-collapse {
+        text-align: center;
+    }
+}
+
+.navbar a {
+    color:#000;
+    font-size: 2em;
+}
+
+.navbar li.active a{
+    color:#8E0000;
+    text-shadow:0px 0px #fff, -1px -1px #444;
+}
+
+.navbar a:hover {
+    background:none !important;
+}
+
+.special {
+    font-family: 'great victorian';
+}
+
+.text-link {
+    margin-top:30px;
+    width:145px;
+    display:inline-block !important;
+    padding-top:10px;
+    padding-bottom:20px;
+}
+
+
+
+.text-link:nth-child(n+3):nth-child(-n+5) {
+    padding-top:43px;
+}
+
+.text-link:first-child {
+    border-right:1px solid #DED5B2;
+}
+
+.text-link:last-child {
+    border-left:1px solid #DED5B2;
+}
+
+.text-link a {
+    vertical-align:middle;
+    line-height:1.1em !important;
+}
+
+/** HOME PAGE **/
+
+#banner-row {
+    position: relative;
+}
+
+#banner-row #banner-img {
+    width:100%;
+    height:auto;
+    min-height:300px;
+}
+
+#gallery-link {
+    position:absolute;
+    top:16px;
+    right:6px;
+}
+
+#home-page .special {
+    width:100%;
+    text-align:center;
+}
+
+#registry {
+    position:relative;
+}
+
+#divider-img {
+    position:absolute;
+    right:-25px;
+    top:0;
+}
+
+#home-page h2 {
+    border-top:1px solid #000;
+    border-bottom:1px solid #000;
+    padding-top:5px;
+}
+
+#home-page h3, #journey-page h3 {
+    text-align:center;
+    width:100%;
+    border-bottom:1px solid #000;
+    padding-bottom:10px;
+}
+
+#address {
+    padding:10px 0 0 10px;
+}
+
+/** OUR JOURNEY **/
+
+.double-border-top {
+    border-top: 1px solid #000;
+    position:relative;
+    width:96%;
+    margin:20px 2% 0 2%;
+}
+
+.double-border-top:before {
+    border-top:5px solid #000;
+    width:100%;
+    height:6px;
+    position:absolute;
+    top:-10px;
+    right:0;
+    left:0;
+    content:'';
+}
+
+#journey-page .col-md-6:first-child {
+    border-right:1px solid black !important;
+}
