@@ -1,0 +1,19 @@
+<!--#include file="SSI1.html" -->
+		<title>
+			Hegge-Olson Wedding (Font Test)
+		</title>
+<!--#include file="SSI2.html" -->
+					<p style="font-family: CarnevaleeFreakshow; font-size: 24px; text-align: center">CarnevaleeFreakshow 24px</p>
+					<img src="image/10x10.png"><br>
+					<p style="font-family: HighTower; font-size: 20px; text-align: center">HighTower 20px</p>
+					<img src="image/10x10.png"><br>
+					<p style="font-family: JFRingmaster; font-size: 36px; text-align: center">JFRingmaster 36px</p>
+					<img src="image/10x10.png"><br>
+					<p style="font-family: JFRingmaster; font-size: 24px; text-align: center">JFRingmaster 24px</p>
+					<img src="image/10x10.png"><br>
+					<p style="font-family: JFRingmaster; font-size: 14px; text-align: center">JFRingmaster 14px</p>
+					<img src="image/10x10.png"><br>
+					<p style="font-family: LoversQuarrel; font-size: 72px; text-align: center">LoversQuarrel 72px</p>
+					<img src="image/10x10.png"><br>
+					<p style="font-family: OldStandard; font-size: 16px; text-align: center">OldStandard 16px</p>
+<!--#include file="SSI3.html" -->

@@ -1,0 +1,36 @@
+<!--#include file="SSI1.html" -->
+		<title>
+			Hegge-Olson Wedding (Events)
+		</title>
+<!--#include file="SSI2.html" -->
+<img src="image/20x20.png"><br>
+<span style="text-align: center">
+<p style="font-family: JFRingmaster; font-size: 36px">EVENTS</p>
+<img src="image/10x10.png"><br>
+<p style="font-family: CarnevaleeFreakshow; font-size: 24px">Engagement partY</p>
+<p style="font-family: HighTower; font-size: 18px">Date & Time Pending</p>
+<p style="font-family: OldStandard; font-size: 16px">Location to be determined.</p>
+<img src="image/10x10.png"><br>
+<p style="font-family: CarnevaleeFreakshow; font-size: 24px">Bridal showeR</p>
+<p style="font-family: HighTower; font-size: 18px">Date & Time Pending</p>
+<p style="font-family: OldStandard; font-size: 16px">Location to be determined.</p>
+<img src="image/10x10.png"><br>
+<p style="font-family: CarnevaleeFreakshow; font-size: 24px">Ceremony rehearsaL</p>
+<p style="font-family: HighTower; font-size: 18px">Thursday, June 25th, 2015<br>
+4:00 PM - 5:00PM</p>
+<p style="font-family: OldStandard; font-size: 16px">In the Atrium of<br>
+Embassy Suites - Airport<br>
+7901 34th Avenue South<br>
+Bloomington, MN 55425</p>
+<img src="image/10x10.png"><br>
+<p style="font-family: CarnevaleeFreakshow; font-size: 24px">Rehearsal dinneR</p>
+<p style="font-family: OldStandard; font-size: 16px">To follow rehearsal in a room assigned to us by the hotel.</p>
+<img src="image/10x10.png"><br>
+<p style="font-family: CarnevaleeFreakshow; font-size: 24px">Gift openinG</p>
+<p style="font-family: HighTower; font-size: 18px">Saturday, June 27th, 2015<br>
+10:30AM</p>
+<p style="font-family: OldStandard; font-size: 16px">
+In a room assigned to us by the hotel.<br>
+Hotel guests are allowed to bring with them their complimentary breakfast.</p>
+</span>
+<!--#include file="SSI3.html" -->

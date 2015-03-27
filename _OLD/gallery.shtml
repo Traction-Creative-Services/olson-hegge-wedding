@@ -1,0 +1,46 @@
+<!--#include file="SSI1.html" -->
+<title>
+Hegge-Olson Wedding (Gallery)
+</title>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.js"></script>
+<script src="galleria/galleria-1.3.4.min.js"></script>
+<!--#include file="SSI2.html" -->
+<p style="font-family: JFRingmaster; font-size: 36px; text-align: center">OUR ENGAGEMENT</p>
+<p style="font-family: OldStandard; font-size: 16px; text-align: center">COMING SOON</p>
+<img src="image/20x20.png"><br>
+<p style="font-family: JFRingmaster; font-size: 36px; text-align: center">Gallery Too</p>
+<div class="galleria">
+<img src="image/Couple-Shoot/IMG_0325 (resize).jpg">
+<img src="image/Couple-Shoot/IMG_0326 (resize).jpg">
+<img src="image/Couple-Shoot/IMG_0330 (resize).JPG">
+<img src="image/Couple-Shoot/IMG_0333 (resize).JPG">
+<img src="image/Couple-Shoot/IMG_0336 (resize).JPG">
+<img src="image/Couple-Shoot/IMG_0337 (resize).JPG">
+<img src="image/Couple-Shoot/IMG_0338 (resize).JPG">
+<img src="image/Couple-Shoot/IMG_0390 (resize).JPG">
+<img src="image/Couple-Shoot/IMG_0391 (resize).JPG">
+</div>
+<img src="image/20x20.png"><br>
+<p style="font-family: JFRingmaster; font-size: 36px; text-align: center">OUR HISTORY</p>
+<div class="galleria">
+<img src="image/Me and Chris 0.jpg">
+<img src="image/180579_10150141692679808_594714807_7959107_457708_n.jpg">
+<img src="image/IMG_0013.JPG">
+<img src="image/IMG_0038.JPG">
+<img src="image/IMG_0320.JPG">
+<img src="image/IMG_0504.JPG">
+<img src="image/IMG_0517.JPG">
+<img src="image/IMG_1045.JPG">
+<img src="image/IMG_1142.JPG">
+<img src="image/IMG_1203.JPG">
+<img src="image/IMG_1310.JPG">
+<img src="image/IMG_1525.JPG">
+<img src="image/IMG_2057.PNG">
+<img src="image/IMG_2113.JPG">
+<img src="image/FB960506-941B-4341-AEB8-0D6CEEBC158F.jpg">
+</div>
+<script>
+Galleria.loadTheme('galleria/themes/classic/galleria.classic.min.js');
+Galleria.run('.galleria');
+</script>
+<!--#include file="SSI3.html" -->

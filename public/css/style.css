@@ -9,7 +9,7 @@ body {
     background:#EAE7DA;
 }
 
-h1, h2, h3, h4 {
+h1, h2, h3, h4, label, .btn {
     font-family: 'Adamina', serif;
 }
 
@@ -25,19 +25,6 @@ hr {
 
 .navbar {
     font-family: 'Adamina', serif;
-}
-
-
-@media (min-width: 768px) {
-    .navbar .navbar-nav {
-        display: inline-block;
-        float: none;
-        vertical-align: top;
-    }
-
-    .navbar .navbar-collapse {
-        text-align: center;
-    }
 }
 
 .navbar a {
@@ -64,9 +51,12 @@ hr {
     display:inline-block !important;
     padding-top:10px;
     padding-bottom:20px;
+    position:relative;
 }
 
-
+.text-link:first-child, .text-link:nth-last-child(2), .text-link:nth-last-child(3), .text-link:nth-last-child(5) {
+    border-bottom: 1px solid #DED5B2;
+}
 
 .text-link:nth-child(n+3):nth-child(-n+5) {
     padding-top:43px;
@@ -76,7 +66,7 @@ hr {
     border-right:1px solid #DED5B2;
 }
 
-.text-link:last-child {
+.text-link:nth-last-child(2) {
     border-left:1px solid #DED5B2;
 }
 
@@ -84,6 +74,50 @@ hr {
     vertical-align:middle;
     line-height:1.1em !important;
 }
+
+#embassy, #bloomington {
+    color:#DED5B2;
+    position:absolute;
+    bottom:-70px;
+    font-size:2em;
+    left:10px;
+    width:290px;
+    text-align:center;   
+}
+
+/*! http://responsiveslides.com v1.54 by @viljamis */
+
+.rslides {
+  position: relative;
+  list-style: none;
+  overflow: hidden;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  }
+
+.rslides li {
+  -webkit-backface-visibility: hidden;
+  position: absolute;
+  display: none;
+  width: 100%;
+  left: 0;
+  top: 0;
+  }
+
+.rslides li:first-child {
+  position: relative;
+  display: block;
+  float: left;
+  }
+
+.rslides img {
+  display: block;
+  height: auto;
+  float: left;
+  width: 100%;
+  border: 0;
+  }
 
 /** HOME PAGE **/
 
@@ -101,6 +135,7 @@ hr {
     position:absolute;
     top:16px;
     right:6px;
+    z-index:1000;
 }
 
 #home-page .special {
@@ -135,13 +170,20 @@ hr {
     padding:10px 0 0 10px;
 }
 
+.registry-link {
+    width:50%;
+    float:left;
+    text-align:center;
+    margin-top:10px;
+}
+
 /** OUR JOURNEY **/
 
 .double-border-top {
     border-top: 1px solid #000;
     position:relative;
-    width:96%;
-    margin:20px 2% 0 2%;
+    width:100%;
+    margin:20px 0 0 0;
 }
 
 .double-border-top:before {
@@ -157,4 +199,373 @@ hr {
 
 #journey-page .col-md-6:first-child {
     border-right:1px solid black !important;
+}
+
+/** THE WEDDING **/
+
+.split {
+    width:100%;
+    position:relative;
+}
+
+.split div {
+    width:40%;
+    padding:0 10px;
+    float:left;
+}
+
+.split div h3 {
+    margin:0;
+    width:90%;
+    text-align:right;
+}
+
+.split div:first-child {
+    border-right: 1px solid black;
+    padding:0 0 0 0;
+}
+
+.row:last-of-type {
+    margin-bottom:3em;
+}
+
+.triple-large {
+    font-size:6em;
+    width:100%;
+    text-align:center;
+}
+
+.double-large {
+    font-size:3em;
+    width:100%;
+    text-align:center;
+}
+
+.center {
+    width:100%;
+    text-align:center;
+}
+
+#map iframe {
+    width:100%;
+}
+
+#times {
+    position:relative;
+}
+
+#times div:first-child {
+    border-right: 1px solid black;
+}
+
+#times img {
+    position:absolute;
+    top:15px;
+    right:10px;
+    height:80%;
+}
+
+#times h2 {
+    float:left;
+    font-size:4em;
+    margin-bottom:5px;
+}
+
+#times p {
+    clear:left;
+    float:left;
+    font-size:2em;
+    font-family: 'Adamina', serif;
+}
+
+/** THE GALLERY **/
+
+#gallery {
+    list-style: none;
+    margin:0;
+    padding:0;
+}
+
+#gallery li {
+    float:left;
+    margin:10px;
+    padding:0;
+    max-width:350px;
+    height:530px;
+}
+
+#gallery li.wide {
+    max-width:710px;
+}
+
+#gallery li img {
+    width:100%;
+    height:auto;
+}
+
+/** EVENTS **/
+
+#events-page .col:nth-child(2n+1) {
+    border-right:1px solid black;
+    height:175px;
+}
+
+#events-page .row {
+    border-bottom:solid 1px black;
+    border-top:solid 1px black;
+    margin-bottom:10px;
+}
+
+/*** GUESTBOOK ***/
+
+.input-group > * {
+    float:left;
+    width:100%;
+    font-size:2em;
+}
+
+.input-group > input {
+    height:40px;
+    border:1px solid black;
+    border-radius:8px;
+    width:300px;
+    
+}
+
+.input-group > textarea {
+    height:125px;
+    border:1px solid black;
+    border-radius:8px;
+    font-size:2.5em;
+}
+
+.input-group {
+    width:100%;
+}
+
+.btn {
+    float:right;
+    margin:10px 10px 10px 10px;
+}
+
+.btn:first-of-type {
+    margin:10px 0px 10px 10px;
+}
+
+#entries .row {
+    border-top:1px solid black;
+    border-bottom:1px solid black;
+}
+
+#entries .row .special {
+    font-size:2.7em;
+}
+
+#entries .row .col-md-8 p {
+    margin:10px 0;
+    font-size:1.5em;
+}
+
+.mobile-only, .mobile-brand {
+    display:none !important;
+}
+
+@media (max-width:1200px) {
+    .nav>li>a>img {
+        max-width:300px;
+    }
+}
+
+@media (max-width:995px) {
+    .text-link {
+        width:90px;
+    }
+    
+    .navbar a {
+        font-size:1.3em;
+    }
+    
+    .text-link:nth-child(n+3):nth-child(-n+5) {
+        padding-top:30px;
+    }
+    
+    #embassy, #bloomington {
+        display:none;
+    }
+}
+
+@media (min-width: 768px) {
+    .navbar .navbar-nav {
+        display: inline-block;
+        float: none;
+        vertical-align: top;
+    }
+
+    .navbar .navbar-collapse {
+        text-align: center;
+    }   
+}
+
+@media (max-width: 770px) {
+    .navbar-toggle .icon-bar {
+        background:#000;
+    }
+    
+    #header-img-li {
+        display:none;
+    }
+    
+    .text-link {
+        float:left;
+        width:95%;
+        margin:0 0 10px 0;
+        padding:0 0 0 5%;
+        padding-top:0;
+        padding-bottom:0;
+    }
+    
+    .mobile-only {
+        display:inline-block !important;
+    }
+    
+    .text-link a {
+        font-size:1.5em;
+    } 
+    
+    .text-link:nth-child(n+3):nth-child(-n+5) {
+        padding-top:0;
+    }
+    
+    .text-link:first-child {
+        border-right:none;
+    }
+    
+    .text-link:last-child {
+        border-left:none;
+    }
+    
+    .mobile-brand {
+        display:block !important;
+        position:absolute;
+        top:10px;
+        left:5px;
+    }
+    
+    .mobile-brand img {
+        height:50px;
+        width:auto;
+    }
+}
+
+@media (max-width: 700px) {
+    #banner-row {
+        max-height:150px;
+        overflow:hidden;
+    }
+    
+    #banner-row #banner-img {
+        width:100%;
+        height:auto;
+    }
+    
+    #gallery-link {
+        display:none;
+    }
+    
+    #divider-img {
+        display:none;
+    }
+    
+    #home-page .col-md-6:last-of-type {
+        padding-top:4em;
+    }
+    
+    #home-page h3 {
+        font-size:1.2em;
+    }
+    
+    .navbar-toggle .icon-bar {
+        background:#000;
+    }
+    
+    #header-img-li {
+        display:none;
+    }
+    
+    .text-link {
+        float:left;
+        width:95%;
+        margin:0 0 10px 0;
+        padding:0 0 0 5%;
+        padding-top:0;
+        padding-bottom:0;
+    }
+    
+    .mobile-only {
+        display:inline-block !important;
+    }
+    
+    .text-link a {
+        font-size:1.5em;
+    } 
+    
+    .text-link:nth-child(n+3):nth-child(-n+5) {
+        padding-top:0;
+    }
+    
+    .text-link:first-child {
+        border-right:none;
+    }
+    
+    .text-link:last-child {
+        border-left:none;
+    }
+    
+    #times div:first-child {
+        border-right:none;
+        
+    }
+    
+    #times hr {
+        display:none;
+    }
+    
+    #wedding-page h2.large {
+        width:100%;
+        font-size:2em;
+    }
+    
+    #wedding-page #times h2.large {
+        font-size:4em;
+    }
+    
+    #events-page .col:nth-child(2n+1) {
+        border-right:none;
+        height:auto;
+    }
+    
+    #events-page h2 {
+        font-size:1.5em;
+    }
+    
+    #events-page h2.triple-large {
+        font-size:3em;
+        text-align:left;
+    }
+    
+    #gallery li {
+        height:auto;
+    }
+    
+    .mobile-brand {
+        display:block !important;
+        position:absolute;
+        top:10px;
+        left:5px;
+    }
+    
+    .mobile-brand img {
+        height:50px;
+        width:auto;
+    }
 }

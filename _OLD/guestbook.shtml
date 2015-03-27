@@ -1,0 +1,20 @@
+<!--#include file="SSI1.html" -->
+		<title>
+			Hegge-Olson Wedding (Guestbook)
+		</title>
+<!--#include file="SSI2.html" -->
+					<form action="/cgi-bin/guestbook.cgi" method=post>
+						<p style="font-family: OldStandard; font-size: 16px">Name:</p>
+						<img src="image/10x10.png"><br>
+						<input name="name" style="width: 100%" type="text"><br>
+						<img src="image/20x20.png"><br>
+						<p style="font-family: OldStandard; font-size: 16px">Message:</p>
+						<img src="image/10x10.png"><br>
+						<textarea name="message" style="width: 100%" rows="10" cols="50"></textarea><br>
+						<img src="image/10x10.png"><br>
+						<input type=submit value="Sign">
+						<input type=reset value="Clear">
+					</form>
+					<img src="image/20x20.png"><br>
+					<!--#include file="guestbook.txt" -->
+<!--#include file="SSI3.html" -->

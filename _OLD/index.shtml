@@ -1,0 +1,18 @@
+<!--#include file="SSI1.html" -->
+<title>
+Hegge-Olson Wedding (Home)
+</title>
+<!--#include file="SSI2.html" -->
+<img style="display: block; margin-left: auto; margin-right: auto" src="image/Couple-Shoot/IMG_0390-2 (resize).jpg">
+<audio style="display: block; margin-left: auto; margin-right: auto" autoplay="autoplay" controls="controls" height="480" width="640">
+	<source src="Forever, A Memory (short).ogg" type="audio/ogg">
+	<source src="Forever, A Memory (short).mp3" type="audio/mpeg">
+</audio>
+<img src="image/10x10.png"><br>
+<p style="font-family: OldStandard; font-size: 16px; text-align: center">WELCOME TO OUR</p>
+<img src="image/10x10.png"><br>
+<p style="font-family: JFRingmaster; font-size: 36px; text-align: center">WEDDING PAGE</p>
+<img src="image/10x10.png"><br>
+<p style="font-family: OldStandard; font-size: 16px; text-align: center">We look forward to seeing everyone at our wedding.</p>
+<p style="font-family: OldStandard; font-size: 16px; text-align: center">Thanks to all who have expressed congratulations!</p>
+<!--#include file="SSI3.html" -->

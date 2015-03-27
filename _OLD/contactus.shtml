@@ -1,0 +1,29 @@
+<!--#include file="SSI1.html" -->
+		<title>
+			Hegge-Olson Wedding (Contact Us)
+		</title>
+<!--#include file="SSI2.html" -->
+					<p style="font-family: JFRingmaster; font-size: 36px; text-align: center">CONTACT US</p>
+					<img src="image/10x10.png"><br>
+					<p style="font-family: OldStandard; font-size: 16px; text-align: center">For your convenience, and for ours, we have created an email address specifically for the occasion that is tied to both our cell phones so that we can receive and respond to your questions quickly.</p>
+					<img src="image/10x10.png"><br>
+					<a style="text-decoration: none" href="mailto:olsonwedding2015@hotmail.com"><p style="font-family: HighTower; font-size: 24px; text-align: center; color: #000000; text-decoration: bold">OLSONWEDDING2015@HOTMAIL.COM</p></a>
+					<img src="image/20x20.png"><br>
+					<p style="font-family: JFRingmaster; font-size: 24px; text-align: center">SPECIFIC CONTACT INFORMATION</p>
+					<img src="image/10x10.png"><br>
+					<table style="width: 100%">
+						<tr>
+							<td>
+								<p style="font-family: CarnevaleeFreakshow; font-size: 20px; text-align: center">Brianna Hegge</p>
+								<p style="font-family: OldStandard; font-size: 16px; text-align: center">3741 Lee Avenue North</p>
+								<p style="font-family: OldStandard; font-size: 16px; text-align: center">Robbinsdale, MN 55422</p>
+								<p style="font-family: OldStandard; font-size: 16px; text-align: center">(612) 965 - 8534</p>
+							</td>
+							<td>
+								<p style="font-family: CarnevaleeFreakshow; font-size: 20px; text-align: center">Christopher Olson</p>
+								<p style="font-family: OldStandard; font-size: 16px; text-align: center">4309 Twin Oak Lane</p>
+								<p style="font-family: OldStandard; font-size: 16px; text-align: center">Robbinsdale, MN 55422</p>
+								<p style="font-family: OldStandard; font-size: 16px; text-align: center">(612) 834 - 7826</p>
+							</td>
+					</table>
+<!--#include file="SSI3.html" -->

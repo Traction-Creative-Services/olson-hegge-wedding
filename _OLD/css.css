@@ -1,0 +1,45 @@
+@font-face
+{
+	font-family: CarnevaleeFreakshow;
+	src: local(CarnevaleeFreakshow), url("font/Carnevalee Freakshow.ttf") format("opentype");
+}
+@font-face
+{
+	font-family: HighTower;
+	src: local(HighTower), url("font/HTOWERT.TTF") format("opentype");
+}
+@font-face
+{
+	font-family: JFRingmaster;
+	src: local(JFRingmaster), url("font/JFRingmaster.ttf") format("opentype");
+}
+@font-face
+{
+	font-family: LoversQuarrel;
+	src: local(LoversQuarrel), url("font/LoversQuarrel-Regular.ttf") format("opentype");
+}
+@font-face
+{
+	font-family: OldStandard;
+	src: local(OldStandard), url("font/OldStandard-Regular.ttf") format("opentype");
+}
+*
+{
+	margin: 0;
+	padding: 0;
+}
+body
+{
+	background: #000000;
+}
+textarea
+{
+	resize: none
+}
+.galleria
+{
+	margin: 10px;
+	width: 620px;
+	height: 480px;
+	background: #000
+}

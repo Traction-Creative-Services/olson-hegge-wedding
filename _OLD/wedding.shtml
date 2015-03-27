@@ -1,0 +1,52 @@
+﻿<!--#include file="SSI1.html" -->
+<title>
+Hegge-Olson Wedding (The Wedding)
+</title>
+<!--#include file="SSI2.html" -->
+<img src="image/20x20.png"><br>
+<span style="text-align: center">
+<p style="font-family: JFRingmaster; font-size: 36px">WEDDING AND GUEST INFORMATION</p>
+<img src="image/10x10.png"><br>
+<p style="font-family: CarnevaleeFreakshow; font-size: 24px">Ceremony &amp; receptioN</p>
+<p style="font-family: OldStandard; font-size: 16px">The special day is</p>
+<p style="font-family: HighTower; font-size: 18px">Friday, June 26th, 2015</p>
+<p style="font-family: OldStandard; font-size: 16px">And will be held at<br>
+Embassy Suites - Airport<br>
+7901 34th Avenue South<br>
+Bloomington, MN 55425<br>
+<a href=http://www.embassyweddings.com">http://www.embassyweddings.com</a></p>
+<br>
+<p style="font-family: HighTower; font-size: 18px">Ceremony to start at 4:00 PM in the atrium.<br>
+Reception to follow at 5:30 in the Orchid and Azalia room.</p>
+<br>
+<p style="font-family: OldStandard; font-size: 16px">Times are subject to change but will be final when save the dates are sent.<br>
+<br>
+Food choices will be updated after a scheduled food tasting.</p>
+<img src="image/10x10.png"><br>
+<p style="font-family: CarnevaleeFreakshow; font-size: 24px">Accommodations &amp; transportatioN</p>
+<p style="font-family: OldStandard; font-size: 16px">A block of rooms will be reserved for your convenience but has not been yet.<br>
+Each room has a living area with a separate sleeping area. The king suite has one bed and a pull out sleeper couch in the living area. The double suite is also an option and has two beds with a pull out sleeper couch in the living area.<br>
+Once the block of rooms has been reserved for us, pricing will be posted as well as instructions on how to book your room. Rooms must be reserved no later than three weeks in advance to receive the discounted rate, as any unbooked rooms will be released at three weeks.<br>
+Check in time is at 4:00PM, checkout is 12:00PM. In some cases the hotel can accommodate earlier check ins but it is not a guarantee and is reliant on how busy the hotel is. Please plan accordingly.<br>
+The hotel offers a complimentary cocktail hour (Manager's Reception) in the evenings and a full complimentary breakfast in the mornings.<br>
+Nearly everything will take place at this hotel. Feel free to reserve a room with another friend or family member to save on costs, even if you live in the area!<br>
+For more information please visit their website:<br>
+<a href="http://embassysuites3.hilton.com">http://embassysuites3.hilton.com</a> or call <a href="tel:+19528541000">(952) 854-1000</a>.<br>
+<br>
+There are complimentary shuttle rides to and from the Minneapolis/St. Paul (MSP) Airport, as well as the Mall of America.<br>
+The metro-transit light rail also stops just outside the hotel. For more information on the light rail and other places it can take you visit their website:<br>
+<a href="http://www.metrotransit.org/metro-blue-line">http://www.metrotransit.org/metro-blue-line</a></p>
+<img src="image/10x10.png"><br>
+<p style="font-family: CarnevaleeFreakshow; font-size: 24px">Maps &amp; directionS</p>
+<p style="font-family: OldStandard; font-size: 16px">A Map will be posted here at a later date providing the locations of the day's events.</p>
+<p style="font-family: OldStandard; font-size: 16px">If more detailed directions are required feel free to contact us.</p>
+<img src="image/10x10.png"><br>
+<p style="font-family: JFRingmaster; font-size: 36px">SPECIAL THANKS</p>
+<img src="image/10x10.png"><br>
+<p style="font-family: OldStandard; font-size: 16px">We are so fortunate to have the people that are helping make our wedding a success, and we feel we need to give them a special thank you for everything they have all done for us. So special thanks to...</p>
+<img src="image/10x10.png"><br>
+<p style="font-family: OldStandard; font-size: 16px">Eugene Olson for helping us create this amazing web page, and for giving us the gift of wedding photography.</p>
+<p style="font-family: OldStandard; font-size: 16px">Daniel Heitman for creating the amazing piece of music that greeted you as you visited our web page.</p>
+<p style="font-family: OldStandard; font-size: 16px">Rhonda Hegge who made my custom wedding dress and bouques from scratch.</p>
+</span>
+<!--#include file="SSI3.html" -->
